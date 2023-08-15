@@ -1,6 +1,5 @@
 # Planning
 
-Today we covered a few things in planning for your midterm.
 For your midterm you will want to spend as much time as possible planning the app before coding it. This is to ensure you have a solid vision of what you want to build. By planning, you are also preventing yourself from backtracking and having to rebuild major components of the app. 
 Here are a couple things you should do for planning:
 
@@ -8,13 +7,18 @@ Here are a couple things you should do for planning:
 
 In software development and product management, a user story is an informal, natural language description of features of a software system.
 
-- As a user, I want to be able to make polls for my friends
+MVP
 
-- As a user, I want to be able to share my polls to friends
+- As a user, I want to be able to create a map, with points of interest and save it
 
-- As a user, I want to be able to see the results of those polls, and have them only visible to me
+- As a user, I want to be able to view a map based on catergory
 
-- As a user, I want a nightmode for my app
+- As a user, I want to be able to save points of interest
+
+Stretch
+
+- As a user, I want to be able to share my map via email
+
 
 ## Prototype(MVP)
 
@@ -26,7 +30,7 @@ Stretch → Things that we want to work on after the MVP is done.
 
 ## Wireframe
 
-- Visuals of what the app would look like, and the flow of its content. Great websites for this would be Figma, Diagrams.net, or any other tool you would like to use to draw
+- Visuals of what the app would look like, and the flow of its content. Great websites for this would be [Figma](https://www.figma.com/), [Diagrams.net](https://www.drawio.com/), or any other tool you would like to use to draw
 
 ## ERD 
 
@@ -44,5 +48,11 @@ Whenever you are working on a new feature, create a new branch. Please avoid wor
 ## Dividing up the workflow
 
 [Trello](https://trello.com/) and Github provides tools for your group to organize the workflow of your app. You can see who is working on what, and what is left on the to-do list. You can leave notes for other group members as well.
+
+# Node version
+
+Stay on 16
+nvm install 16
+nvm alias default 16
 
 Best of luck everyone!
