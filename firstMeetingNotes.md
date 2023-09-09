@@ -3,21 +3,25 @@
 For your midterm you will want to spend as much time as possible planning the app before coding it. This is to ensure you have a solid vision of what you want to build. By planning, you are also preventing yourself from backtracking and having to rebuild major components of the app. 
 Here are a couple things you should do for planning:
 
+# Listing out the requirements for the app
+
+All in a google doc.
+
+
 ## What are user stories?
 
 In software development and product management, a user story is an informal, natural language description of features of a software system.
 
+
+## Food ordering app
 MVP
+- As a user, I want to be able to order food from the website and be notified when to pick it up
+- As a user, I want to be notified via text message when my order is ready for pick up
 
-- As a user, I want to be able to create a map, with points of interest and save it
+If we're done with the app a week before, then you can work on implementing stretch features
 
-- As a user, I want to be able to view a map based on catergory
-
-- As a user, I want to be able to save points of interest
-
-Stretch
-
-- As a user, I want to be able to share my map via email
+Stretch goals
+- As a user, I want to be emailed a receipt
 
 
 ## Prototype(MVP)
@@ -28,13 +32,37 @@ How many of the user stories, are requirements?
 
 Stretch → Things that we want to work on after the MVP is done.
 
-## Wireframe
-
-- Visuals of what the app would look like, and the flow of its content. Great websites for this would be [Figma](https://www.figma.com/), [Diagrams.net](https://www.drawio.com/), or any other tool you would like to use to draw
-
 ## ERD 
 
 - Entity Relationship Diagram. How the tables are connected together, it will define your database
+What information will I need to get the features I want?
+Tables, FK, PK
+
+## Routes
+
+You will not need to create a register page or a login page.
+You can hardcode your login users.
+
+/login/:id
+ -> /login/2
+ -> A cookie with the id of 2 will be stored
+
+- CRUD
+Orders
+- Create -> /order POST
+- Read -> /orders or a single order /order/:id
+- Update ->
+- Delete ->
+
+Users
+- Create -> /order POST
+- Read -> /orders or a single order /order/:id
+- Update ->
+- Delete ->
+
+## Wireframe
+
+- Visuals of what the app would look like, and the flow of its content. Great websites for this would be [Figma](https://www.figma.com/), [Diagrams.net](https://www.drawio.com/), or any other tool you would like to use to draw
 
 ## Git Repo setup
 
